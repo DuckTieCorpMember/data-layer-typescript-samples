@@ -1,0 +1,15 @@
+<h3>With AspNet</h3>
+<dx-data-grid
+  [dataSource]="dataSource"
+  [remoteOperations]="true"
+  [width]="'100%'"
+  [showBorders]="true"
+>
+    <dxo-paging [pageSize]="10"></dxo-paging>
+    <dxo-pager [visible]="true"></dxo-pager>
+    <dxi-column dataField="OrderID"></dxi-column>
+    <dxi-column dataField="CustomerID"></dxi-column>
+    <dxi-column dataField="ShipName"></dxi-column>
+    <dxi-column dataField="ShipCountry"></dxi-column>
+    <dxi-column dataField="ShipCity"></dxi-column>
+</dx-data-grid>

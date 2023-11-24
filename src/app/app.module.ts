@@ -10,6 +10,7 @@ import { MenuComponent } from './menu/menu.component';
 import { WithArrayComponent } from './with-array/with-array.component';
 import { WithArrayStoreComponent } from './with-array-store/with-array-store.component';
 import { WithCustomStoreComponent } from './with-custom-store/with-custom-store.component';
+import { WithAspNetComponent } from './with-asp-net/with-asp-net.component';
 
 import { DxDataGridModule } from 'devextreme-angular';
 
@@ -19,7 +20,14 @@ import { DxDataGridModule } from 'devextreme-angular';
       RouterModule.forRoot(routes),
       DxDataGridModule
     ],
-    declarations: [AppComponent, MenuComponent, WithArrayComponent, WithArrayStoreComponent, WithCustomStoreComponent],
+    declarations: [
+      AppComponent,
+      MenuComponent,
+      WithArrayComponent,
+      WithArrayStoreComponent,
+      WithCustomStoreComponent,
+      WithAspNetComponent
+    ],
     bootstrap: [AppComponent],
   })
   export class AppModule { }
