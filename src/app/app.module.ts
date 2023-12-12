@@ -11,6 +11,7 @@ import { WithArrayComponent } from './with-array/with-array.component';
 import { WithArrayStoreComponent } from './with-array-store/with-array-store.component';
 import { WithCustomStoreComponent } from './with-custom-store/with-custom-store.component';
 import { WithAspNetComponent } from './with-asp-net/with-asp-net.component';
+import { WithOdataComponent } from './with-odata/with-odata.component';
 
 import { DxDataGridModule } from 'devextreme-angular';
 
@@ -26,7 +27,8 @@ import { DxDataGridModule } from 'devextreme-angular';
       WithArrayComponent,
       WithArrayStoreComponent,
       WithCustomStoreComponent,
-      WithAspNetComponent
+      WithAspNetComponent,
+      WithOdataComponent
     ],
     bootstrap: [AppComponent],
   })

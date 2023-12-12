@@ -1,0 +1,23 @@
+<h3>With CustomStore</h3>
+
+<dx-data-grid id="gridContainer" [dataSource]="dataSource" [showBorders]="true">
+    <dxi-column dataField="Product_ID"></dxi-column>
+    <dxi-column dataField="Product_Name" [width]="250"></dxi-column>
+    <dxi-column dataField="Product_Category"></dxi-column>
+    <dxi-column
+      dataField="Product_Cost"
+      caption="Cost"
+      dataType="number"
+      format="currency"
+    ></dxi-column>
+    <dxi-column
+      dataField="Product_Sale_Price"
+      caption="Sale Price"
+      dataType="number"
+      format="currency"
+    ></dxi-column>
+    <dxi-column
+      dataField="Product_Consumer_Rating"
+      caption="Rating"
+    ></dxi-column>
+</dx-data-grid>
